@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Hotel Dev</title>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <p>Hotel Dev</p>
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cidade">Cidade</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+            </ul>
+         </nav>
+         <div class="header-content">
+            <h1>Rio de Janeiro</h1>
+            <p>Venha conhecer as belezas da cidade maravilhosa.</p>
+            <a href="#cidade"><button>Saiba mais</button></a>
+        </div>
+    </header>
+    <section id="cidade" class="cidade">
+        <div class="itemflex50">
+            <img class="cidadeimg" src="imagens/sobre.jpg" alt="Foto de Copacabana"/>
+        </div>
+        <div class="itemflex50">
+            <div class="cidadetexto">
+              <h2>Rio de Janeiro - Brasil.</h2>
+              <p>Os cartões-postais do Rio de Janeiro mostram o Cristo Redentor, o estádio do Maracanã, Arcos da Lapa, entre outros pontos bastante procurados por turistas de todo o mundo, porém o que faz do lugar a cidade maravilhosa de verdade são as obras construídas pelas mãos de Deus.<br><br> Antes mesmo de chegar na cidade, é possível ver da janelinha do avião todas as maravilhas do morro do Corcovado e da Floresta da Tijuca. No meio disso tudo estão o Pão de Açúcar, um complexo de morros no bairro da Urca que compreende, além do morro do Pão de Açúcar, o morro da Urca e o morro da Babilônia. Lá podem ser encontrados praticantes de montanhismo escalando as mais de 150 vias de escalada.</p>
+            </div>
+        </div>
+    </section>
+    <section id="servicos">
+        <h1 class="servicostitulo">Serviços:</h1>
+        <div class="servicos">
+            <div class="cards">
+                <h2>Reservar Hospedagem</h2>
+                <img src="imagens/servicos1.png" alt="Hospedagem">
+                <p>Reserve sua hospedagem nos melhores hotéis com os melhores preços.</p>
+            </div>
+            <div class="cards">
+                <h2>Seguro de Viagem</h2>
+                <img src="imagens/servicos2.png" alt="Seguro">
+                <p>Contrate o seguro viagem ideal para você barato.</p>
+            </div>
+            <div class="cards">
+                <h2>Compra de Passagem</h2>
+                <img src="imagens/servicos3.png" alt="Passagens">
+                <p>Compre sua passagem aérea com descontos incríveis para sua viagem.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="contato">
+            <h1>Contato:</h1>
+            <div class="redesociais">
+               <h2>Redes Sociais</h2>
+               <a href="#"><img src="imagens/logo-instagram.jpg" alt="instagram"></a>
+               <a href="#"><img src="imagens/logo-twitter.jpg" alt="twitter"></a>
+               <a href="#"><img src="imagens/logo-facebook.jpg" alt="facebook"></a>
+               <a href="#"><img src="imagens/logo-wpp.jpg" alt="whatsapp"></a>
+            </div>
+            <div class="form">
+                <h2>Formulario de contato</h2>
+                <form action="https://formsubmit.co/emanuelnovais2003@gmail.com" method="POST" autocomplete="off">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="message">Mensagem:</label>
+                    <textarea name="message" id="message" required></textarea>
+                    <button class="botaoform" type="submit">Enviar</button>
+               </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="rodape-copyright">
+            ©<a class="git" href="https://github.com/30emanuel" target="_blank">Emanuel Novais</a>. Todos direitos reservados.
+        </div>
+    </footer>
+</body>
+</html>
