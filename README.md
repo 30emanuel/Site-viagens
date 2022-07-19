@@ -1,2 +1,2 @@
-# hotel-dev
-um site simples de um hotel fictício, usando HTML e CSS
+# Projeto Site de Viagens
+site de Agência de Viagens
